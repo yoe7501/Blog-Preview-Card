@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Figtree-Italic';
+    src: url('fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-VariableFont';
+    src: url('fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Figtree-ExtraBold';
+    src: url(fonts/static/Figtree-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Figtree-SemiBold';
+    src: url('fonts/static/Figtree-SemiBold.ttf') format('truetype');
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 53%);
+    --Black: hsl(0, 0%, 7%);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--Yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Figtree-ExtraBold', sans-serif;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    margin: 10px;
+}
+svg{
+    border-radius: 15px;
+}
+.card {
+    background-color: var(--White);
+    max-width: 365px;
+    border-radius: 15px;
+    border-color: var(--Black);
+    border: 20px;
+    box-shadow: 10px 10px 0px rgb(0, 0, 0); 
+    border: 1px solid var(--Black);
+
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    max-height: 25px; 
+    margin-top: 10px;
+    margin-bottom: 15px; 
+}
+
+.learning {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Yellow);
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.text-box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+
+.profile-picture {
+    padding-right: 10px;
+    width: 30px;
+
+}
+p {
+    font-family: 'Figtree-VariableFont', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+
+}
+.description {
+    color: var(--Grey);
+}
+.name {
+    font-size: 13px;
+    font-family: 'Figtree-ExtraBold', sans-serif;
+}
+
